@@ -35,7 +35,7 @@ setup(
     zip_safe=False,
     setup_requires=[],
     install_requires=[
-        'deform>=2.0a',
+        'deform>=2.0.2',
         'fanstatic',
         'js.jquery',
         'js.jquery_form',
@@ -46,7 +46,6 @@ setup(
         'js.jqueryui',
         'js.modernizr',
         'js.select2',
-        'js.tinymce',
         'setuptools',
     ],
     entry_points={

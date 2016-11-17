@@ -15,7 +15,6 @@ from js.jqueryui import ui_datepicker
 from js.jqueryui import ui_sortable
 from js.modernizr import modernizr
 from js.select2 import select2
-from js.tinymce import tinymce
 from pkg_resources import resource_filename
 
 
@@ -94,6 +93,11 @@ pickadate_css = Group([
     pickadate_css_time, ])
 
 pickadate = Group([pickadate_js, pickadate_css, ])
+
+tinymce = Resource(
+    library,
+    'tinymce/tinymce.min.js')
+
 
 resource_mapping = {
     'datetimepicker': [timepicker, ],
